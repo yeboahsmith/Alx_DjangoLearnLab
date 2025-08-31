@@ -1,1 +1,23 @@
 
+python3 --version
+pip install django
+django-admin --version
+django-admin startproject LibraryProject
+cd LibraryProject
+LibraryProject/
+    manage.py
+    LibraryProject/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+# LibraryProject
+
+This is a Django project created for learning purposes.  
+
+## Steps to Run
+1. Install dependencies: `pip install django`
+2. Run the development server: `python manage.py runserver`
+3. Open browser at: `http://127.0.0.1:8000/`
+python manage.py runserver
